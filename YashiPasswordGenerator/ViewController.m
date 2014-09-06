@@ -79,7 +79,7 @@
             }
         }
     }
-    if (isOK == str.length && str.integerValue < 1024) {
+    if (isOK == str.length && str.integerValue <= 1024) {
         sb.textColor = [NSColor blackColor];
 //        [startbtn setEnabled:YES];
     } else {
