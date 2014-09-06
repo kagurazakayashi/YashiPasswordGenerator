@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		624A112C19BB3EC300B4C48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A112B19BB3EC300B4C48E /* main.m */; };
+		624A112F19BB3EC300B4C48E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A112E19BB3EC300B4C48E /* ViewController.m */; };
+		624A113219BB3EC300B4C48E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A113119BB3EC300B4C48E /* AppDelegate.m */; };
+		624A113419BB3EC300B4C48E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 624A113319BB3EC300B4C48E /* Images.xcassets */; };
+		624A113719BB3EC300B4C48E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 624A113519BB3EC300B4C48E /* Main.storyboard */; };
+		624A114319BB3EC300B4C48E /* YashiPasswordGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A114219BB3EC300B4C48E /* YashiPasswordGeneratorTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		624A113D19BB3EC300B4C48E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 624A111E19BB3EC300B4C48E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 624A112519BB3EC300B4C48E;
+			remoteInfo = YashiPasswordGenerator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		624A112619BB3EC300B4C48E /* YashiPasswordGenerator-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YashiPasswordGenerator-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		624A112A19BB3EC300B4C48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624A112B19BB3EC300B4C48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		624A112D19BB3EC300B4C48E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		624A112E19BB3EC300B4C48E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		624A113019BB3EC300B4C48E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		624A113119BB3EC300B4C48E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		624A113319BB3EC300B4C48E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		624A113619BB3EC300B4C48E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		624A113C19BB3EC300B4C48E /* YashiPasswordGeneratorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YashiPasswordGeneratorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		624A114119BB3EC300B4C48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		624A114219BB3EC300B4C48E /* YashiPasswordGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YashiPasswordGeneratorTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624A112319BB3EC300B4C48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624A113919BB3EC300B4C48E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624A111D19BB3EC300B4C48E = {
+			isa = PBXGroup;
+			children = (
+				624A112819BB3EC300B4C48E /* YashiPasswordGenerator */,
+				624A113F19BB3EC300B4C48E /* YashiPasswordGeneratorTests */,
+				624A112719BB3EC300B4C48E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		624A112719BB3EC300B4C48E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624A112619BB3EC300B4C48E /* YashiPasswordGenerator-OSX.app */,
+				624A113C19BB3EC300B4C48E /* YashiPasswordGeneratorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624A112819BB3EC300B4C48E /* YashiPasswordGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				624A112D19BB3EC300B4C48E /* ViewController.h */,
+				624A112E19BB3EC300B4C48E /* ViewController.m */,
+				624A113019BB3EC300B4C48E /* AppDelegate.h */,
+				624A113119BB3EC300B4C48E /* AppDelegate.m */,
+				624A113319BB3EC300B4C48E /* Images.xcassets */,
+				624A113519BB3EC300B4C48E /* Main.storyboard */,
+				624A112919BB3EC300B4C48E /* Supporting Files */,
+			);
+			path = YashiPasswordGenerator;
+			sourceTree = "<group>";
+		};
+		624A112919BB3EC300B4C48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				624A112A19BB3EC300B4C48E /* Info.plist */,
+				624A112B19BB3EC300B4C48E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		624A113F19BB3EC300B4C48E /* YashiPasswordGeneratorTests */ = {
+			isa = PBXGroup;
+			children = (
+				624A114219BB3EC300B4C48E /* YashiPasswordGeneratorTests.m */,
+				624A114019BB3EC300B4C48E /* Supporting Files */,
+			);
+			path = YashiPasswordGeneratorTests;
+			sourceTree = "<group>";
+		};
+		624A114019BB3EC300B4C48E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				624A114119BB3EC300B4C48E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624A112519BB3EC300B4C48E /* YashiPasswordGenerator-OSX */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624A114619BB3EC300B4C48E /* Build configuration list for PBXNativeTarget "YashiPasswordGenerator-OSX" */;
+			buildPhases = (
+				624A112219BB3EC300B4C48E /* Sources */,
+				624A112319BB3EC300B4C48E /* Frameworks */,
+				624A112419BB3EC300B4C48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YashiPasswordGenerator-OSX";
+			productName = YashiPasswordGenerator;
+			productReference = 624A112619BB3EC300B4C48E /* YashiPasswordGenerator-OSX.app */;
+			productType = "com.apple.product-type.application";
+		};
+		624A113B19BB3EC300B4C48E /* YashiPasswordGeneratorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624A114919BB3EC300B4C48E /* Build configuration list for PBXNativeTarget "YashiPasswordGeneratorTests" */;
+			buildPhases = (
+				624A113819BB3EC300B4C48E /* Sources */,
+				624A113919BB3EC300B4C48E /* Frameworks */,
+				624A113A19BB3EC300B4C48E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				624A113E19BB3EC300B4C48E /* PBXTargetDependency */,
+			);
+			name = YashiPasswordGeneratorTests;
+			productName = YashiPasswordGeneratorTests;
+			productReference = 624A113C19BB3EC300B4C48E /* YashiPasswordGeneratorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624A111E19BB3EC300B4C48E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Kagurazaka Yashi";
+				TargetAttributes = {
+					624A112519BB3EC300B4C48E = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					624A113B19BB3EC300B4C48E = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 624A112519BB3EC300B4C48E;
+					};
+				};
+			};
+			buildConfigurationList = 624A112119BB3EC300B4C48E /* Build configuration list for PBXProject "YashiPasswordGenerator-OSX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 624A111D19BB3EC300B4C48E;
+			productRefGroup = 624A112719BB3EC300B4C48E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624A112519BB3EC300B4C48E /* YashiPasswordGenerator-OSX */,
+				624A113B19BB3EC300B4C48E /* YashiPasswordGeneratorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		624A112419BB3EC300B4C48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624A113419BB3EC300B4C48E /* Images.xcassets in Resources */,
+				624A113719BB3EC300B4C48E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624A113A19BB3EC300B4C48E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624A112219BB3EC300B4C48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624A112F19BB3EC300B4C48E /* ViewController.m in Sources */,
+				624A112C19BB3EC300B4C48E /* main.m in Sources */,
+				624A113219BB3EC300B4C48E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		624A113819BB3EC300B4C48E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624A114319BB3EC300B4C48E /* YashiPasswordGeneratorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		624A113E19BB3EC300B4C48E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 624A112519BB3EC300B4C48E /* YashiPasswordGenerator-OSX */;
+			targetProxy = 624A113D19BB3EC300B4C48E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		624A113519BB3EC300B4C48E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				624A113619BB3EC300B4C48E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		624A114419BB3EC300B4C48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		624A114519BB3EC300B4C48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		624A114719BB3EC300B4C48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YashiPasswordGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		624A114819BB3EC300B4C48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = YashiPasswordGenerator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		624A114A19BB3EC300B4C48E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YashiPasswordGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YashiPasswordGenerator.app/Contents/MacOS/YashiPasswordGenerator";
+			};
+			name = Debug;
+		};
+		624A114B19BB3EC300B4C48E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = YashiPasswordGeneratorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YashiPasswordGenerator.app/Contents/MacOS/YashiPasswordGenerator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624A112119BB3EC300B4C48E /* Build configuration list for PBXProject "YashiPasswordGenerator-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624A114419BB3EC300B4C48E /* Debug */,
+				624A114519BB3EC300B4C48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624A114619BB3EC300B4C48E /* Build configuration list for PBXNativeTarget "YashiPasswordGenerator-OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624A114719BB3EC300B4C48E /* Debug */,
+				624A114819BB3EC300B4C48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		624A114919BB3EC300B4C48E /* Build configuration list for PBXNativeTarget "YashiPasswordGeneratorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624A114A19BB3EC300B4C48E /* Debug */,
+				624A114B19BB3EC300B4C48E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624A111E19BB3EC300B4C48E /* Project object */;
+}
