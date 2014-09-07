@@ -23,10 +23,21 @@
     IBOutlet NSTextField *longlabel;
     IBOutlet NSTokenField *longtext;
     IBOutlet NSButton *startbtn;
+    IBOutlet NSButton *testbtn;
     IBOutlet NSProgressIndicator *pro;
     IBOutlet NSProgressIndicator *spro;
     IBOutlet NSTextField *output;
+    IBOutlet NSTextField *powerlabel;
+    IBOutlet NSLevelIndicator *power;
+    IBOutlet NSButton *exitbtn;
+    IBOutlet NSButton *copybtn;
+    NSThread *myThread;
+    NSInteger leng;
     NSInteger all;
+    NSDate *time;
+    BOOL testmode;
+    BOOL firstStop;
+//    BOOL working;
 }
 
 @end

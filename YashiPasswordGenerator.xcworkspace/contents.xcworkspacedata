@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:YashiPasswordGenerator/YashiPasswordGenerator-OSX.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:YashiPasswordGenerator/YashiPasswordGeneratorTests"
+      name = "YashiPasswordGeneratorTests">
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+      <FileRef
+         location = "group:YashiPasswordGeneratorTests.m">
+      </FileRef>
+   </Group>
+</Workspace>

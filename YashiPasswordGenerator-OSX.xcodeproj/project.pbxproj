@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6246B92419BC4DBC00B0E420 /* PasswordPower.m in Sources */ = {isa = PBXBuildFile; fileRef = 6246B92319BC4DBC00B0E420 /* PasswordPower.m */; };
 		624A112C19BB3EC300B4C48E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A112B19BB3EC300B4C48E /* main.m */; };
 		624A112F19BB3EC300B4C48E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A112E19BB3EC300B4C48E /* ViewController.m */; };
 		624A113219BB3EC300B4C48E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 624A113119BB3EC300B4C48E /* AppDelegate.m */; };
@@ -26,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6246B92219BC4DBC00B0E420 /* PasswordPower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasswordPower.h; sourceTree = "<group>"; };
+		6246B92319BC4DBC00B0E420 /* PasswordPower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasswordPower.m; sourceTree = "<group>"; };
 		624A112619BB3EC300B4C48E /* YashiPasswordGenerator-OSX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YashiPasswordGenerator-OSX.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		624A112A19BB3EC300B4C48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		624A112B19BB3EC300B4C48E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -86,6 +89,8 @@
 				624A113319BB3EC300B4C48E /* Images.xcassets */,
 				624A113519BB3EC300B4C48E /* Main.storyboard */,
 				624A112919BB3EC300B4C48E /* Supporting Files */,
+				6246B92219BC4DBC00B0E420 /* PasswordPower.h */,
+				6246B92319BC4DBC00B0E420 /* PasswordPower.m */,
 			);
 			path = YashiPasswordGenerator;
 			sourceTree = "<group>";
@@ -217,6 +222,7 @@
 			files = (
 				624A112F19BB3EC300B4C48E /* ViewController.m in Sources */,
 				624A112C19BB3EC300B4C48E /* main.m in Sources */,
+				6246B92419BC4DBC00B0E420 /* PasswordPower.m in Sources */,
 				624A113219BB3EC300B4C48E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
